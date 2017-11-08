@@ -1,19 +1,54 @@
+#stylesheet
+
+body {
+  margin: o;
+  border: 0;
+}
+
 header {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
 }
 
-header h1 {
+header .logo {
   color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
 }
 
-.menu {
-  display: inline-flex;
+header nav {
+  display: block;
+  padding-right: 30px;
 }
 
-.menu ul li {
+header a {
+  color: black;
+}
+
+ ul li {
   display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
