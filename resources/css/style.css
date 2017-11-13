@@ -1,7 +1,7 @@
 #stylesheet
 
 body {
-  margin: o;
+  margin: 0;
   border: 0;
 }
 
@@ -10,20 +10,24 @@ header {
     font-size: 14px;
     font-weight: bold;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
-    justify-content: space-between;
 }
 
 header .logo {
   color: MediumAquamarine;
+  padding-left: 30px;
   display: flex;
-  align-items: center;
+}
+
+.logo h1 {
   padding-left: 30px;
 }
 
 header nav {
-  display: block;
+  display: inline-block;
   padding-right: 30px;
 }
 
@@ -37,9 +41,14 @@ header a {
   padding: 20px;
 }
 
-main {
+.column {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid red;
 }
+
 
 .column.large {
   width: 630px;
@@ -51,4 +60,19 @@ main {
 
 .column.small {
   width: 240px;
+}
+
+
+.large {
+  border: 1px solid black;
+}
+
+.medium {
+  border: 1px solid black;
+}
+
+.small {
+  border: 1px solid black;
+}
+
 }
