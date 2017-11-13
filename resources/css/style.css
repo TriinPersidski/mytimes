@@ -43,12 +43,11 @@ header a {
 
 .column {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;vsdzv b./ b nxc/./d/
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   border: 1px solid red;
 }
-
 
 .column.large {
   width: 630px;
@@ -62,7 +61,6 @@ header a {
   width: 240px;
 }
 
-
 .large {
   border: 1px solid black;
 }
@@ -74,5 +72,19 @@ header a {
 .small {
   border: 1px solid black;
 }
+.article {
+  border: 1px solid green;
+}
 
+.headline {
+  border: 1px solid black;
+  }
+
+.column.large.main {
+  background-image: url("../images/img-story-main.png");
+  background-repeat: no-repeat;
+}
+
+.spin {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
