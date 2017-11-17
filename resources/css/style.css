@@ -3,6 +3,7 @@
 body {
   margin: 0 auto;
   border: 0;
+
 }
 
 header {
@@ -62,9 +63,10 @@ main {
 .column {
   margin-top: 50px;
   margin-bottom: 100px;
-  margin-right: 32px;
+  margin: 32px;
   margin-left: 0px;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   border: 1px solid white;
 }
